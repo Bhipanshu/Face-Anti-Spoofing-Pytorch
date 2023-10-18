@@ -16,7 +16,7 @@ transform = transforms.Compose([
 	transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),  # Assuming you used this normalization for training
 ])
 
-data_root = '/media/bennettpc/fe11dcbb-f25e-4ef7-83dc-f1876b222064/Bhipanshu/replayAttack/train'
+data_root = 'data_dir'
 
 train_dataset = datasets.ImageFolder(root=data_root, transform=transform)
 
