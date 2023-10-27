@@ -18,7 +18,7 @@ transform = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
  #Define the path to the root folder containing your class folders
-data_root = '/media/bennettpc/fe11dcbb-f25e-4ef7-83dc-f1876b222064/Bhipanshu/replayAttack/train'
+data_root = 'path to dataset'
 
 # Create a dataset using ImageFolder
 train_dataset = datasets.ImageFolder(root=data_root, transform=transform)

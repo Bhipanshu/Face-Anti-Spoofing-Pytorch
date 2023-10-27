@@ -16,7 +16,7 @@ transform = transforms.Compose([
 	transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),  # Assuming you used this normalization for training
 ])
 
-data_root = 'data_dir'
+data_root = 'path to dataset'
 
 train_dataset = datasets.ImageFolder(root=data_root, transform=transform)
 
