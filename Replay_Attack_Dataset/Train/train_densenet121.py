@@ -126,11 +126,3 @@ for epoch in range(num_epochs):
 
         best_acc=accuracy
 print("Training completed!")
-
-
-
-
-
-
-
-#
